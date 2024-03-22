@@ -1,13 +1,12 @@
 # MT-SSD
-It is the official code release of MT-SSD. This is a point-based single stage 3D detection model. 
-Our code based on the OpenPCDet. You can follow the below command to install it.
-
+The official code release of MT-SSD, a point-based single stage 3D detection model, is now available. Our code is based on OpenPCDet. To install it, please follow the command below.
+## Installation
 Requirements:
 Linux (tested on Ubuntu 14.04/16.04/18.04/20.04/21.04)
 
-Python 3.6+
+Python 3.9.0
 
-PyTorch 1.1 or higher (tested on PyTorch 1.1, 1,3, 1,5~1.10)
+PyTorch 1.7.1
 
 CUDA 9.0 or higher (PyTorch 1.3+ needs CUDA 9.2+)
 ```
