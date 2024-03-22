@@ -1,4 +1,4 @@
-# AF-SSD
+# MT-SSD
 This is a point-based single stage 3D detection model. 
 Our code based on the OpenPCDet. You can follow the below command to install it.
 
