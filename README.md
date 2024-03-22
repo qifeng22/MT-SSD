@@ -23,12 +23,12 @@ python train.py --cfg_file cfgs/kitti_models/MT-SSD.yaml --batch_size 8 --epoch 
 
 python train.py --cfg_file cfgs/waymo_models/MT-SSD.yaml --batch_size 12 --epoch 85 ## waymo single GPU
 
-sh scripts/dist_train.sh 2 --cfg_file cfgs/waymo_models/MT-SSD.yaml --epoch 85 \\
+sh scripts/dist_train.sh 2 --cfg_file cfgs/waymo_models/MT-SSD.yaml --epoch 85   
 ## waymo multiple GPUs, you can change 2 to the number what you want.
 ```
 ## Evaluation
 ```
-python test.py --cfg_file cfgs/kitti_models/IA-SSD.yaml  --batch_size ${BATCH_SIZE} --ckpt ${PTH_FILE} \\
+python test.py --cfg_file cfgs/kitti_models/IA-SSD.yaml  --batch_size ${BATCH_SIZE} --ckpt ${PTH_FILE}   
 ## PTH_FILE your_fold/MT-SSD/output/kitti_models/IA-SSD/default/ckpt/checkpoint_epoch_80.pth
 
 python test.py --cfg_file cfgs/waymo_models/MT-SSD.yaml --batch_size ${BATCH_SIZE} --ckpt ${PTH_FILE} 
