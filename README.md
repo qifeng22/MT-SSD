@@ -33,4 +33,9 @@ python test.py --cfg_file cfgs/kitti_models/IA-SSD.yaml  --batch_size ${BATCH_SI
 
 python test.py --cfg_file cfgs/waymo_models/MT-SSD.yaml --batch_size ${BATCH_SIZE} --ckpt ${PTH_FILE} 
 ```
+## Experimental results
+### KITTI dataset
+Quantitative results of different approaches on KITTI dataset (test set):
+
+
 
