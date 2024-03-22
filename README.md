@@ -26,6 +26,7 @@ python train.py --cfg_file cfgs/waymo_models/MT-SSD.yaml --batch_size 12 --epoch
 sh scripts/dist_train.sh 2 --cfg_file cfgs/waymo_models/MT-SSD.yaml --epoch 85   
 ## waymo multiple GPUs, you can change 2 to the number what you want.
 ```
+For MT-SSD on waymo, we release the code in another repository, please refer to MT-SSD(waymo)[].
 ## Evaluation
 ```
 python test.py --cfg_file cfgs/kitti_models/IA-SSD.yaml  --batch_size ${BATCH_SIZE} --ckpt ${PTH_FILE}   
