@@ -42,7 +42,7 @@ Here is the [ckpt](https://pan.baidu.com/s/1T34YnBAoF-uBbySxu7j27g?pwd=xwd8) .
 Quantitative results of different approaches on KITTI dataset (val set):
 Here is the [ckpt](https://pan.baidu.com/s/17gX0JqmvF36L7pVgmMncjQ?pwd=9l5x)
 ![image](https://github.com/qifeng22/MT-SSD/assets/57132534/d5533808-88c2-417a-bb6d-ca32d4d42542)
-### Waymo dataset
+### Waymo val dataset
 Here is the [ckpt](https://pan.baidu.com/s/1nMdQ7wtcR078uThnQu_Zcg?pwd=4y8f)
 ![image](https://github.com/qifeng22/MT-SSD/assets/57132534/361c4b84-fa9d-459a-9611-b967dfb50660)
 
