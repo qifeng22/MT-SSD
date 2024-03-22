@@ -36,6 +36,8 @@ python test.py --cfg_file cfgs/waymo_models/MT-SSD.yaml --batch_size ${BATCH_SIZ
 ## Experimental results
 ### KITTI dataset
 Quantitative results of different approaches on KITTI dataset (test set):
+Here is the ckpt 
+![image](https://github.com/qifeng22/MT-SSD/assets/57132534/8142a820-588d-44a6-ac51-3d4dba58e545)
 
 
 
