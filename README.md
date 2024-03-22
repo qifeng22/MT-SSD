@@ -14,3 +14,15 @@ git clone https://github.com/qifeng22/MT-SSD.git && cd MT-SSD
 pip install spconv-cuxxx ### replace cuxxx with your cuda version,such as cu102
 python setup.py develop
 ```
+## Prepare the datasets
+For OpenPCDet, please refer to here(https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) for the Dataset Preparation.
+
+## Training
+```
+python train.py --cfg_file cfgs/kitti_models/MT-SSD.yaml --batch_size 8 --epoch 80 ## kitti
+
+python train.py --cfg_file cfgs/waymo_models/MT-SSD.yaml --batch_size 12 --epoch 85 ## waymo single GPU
+
+sh scripts/dist_train.sh 2 --cfg_file cfgs/waymo_models/MT-SSD.yaml --epoch 85 ## waymo multiple GPUs, you can change 2 to the number what you want.
+```
+
