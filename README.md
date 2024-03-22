@@ -15,7 +15,7 @@ pip install spconv-cuxxx ### replace cuxxx with your cuda version,such as cu102
 python setup.py develop
 ```
 ## Prepare the datasets
-For OpenPCDet, please refer to here(https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) for the Dataset Preparation.
+For OpenPCDet, please refer to [here](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/GETTING_STARTED.md) for the Dataset Preparation.
 
 ## Training
 ```
