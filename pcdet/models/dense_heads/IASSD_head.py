@@ -758,7 +758,10 @@ class IASSD_Head(PointHeadTemplate):
             pred_boxes[:, 0:7],
             gt_boxes[:, 0:7]
         )
-        loss_corner = loss_corner.mean()
+        if len(loss_corner):
+            loss_corner = loss_corner.mean()
+        else:
+            loss_corner = torch.tensor(0.).cuda()
         loss_corner = loss_corner * self.model_cfg.LOSS_CONFIG.LOSS_WEIGHTS['corner_weight']
         if tb_dict is None:
             tb_dict = {}
