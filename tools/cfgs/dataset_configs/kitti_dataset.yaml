@@ -9,7 +9,7 @@ DATA_SPLIT: {
 }
 
 INFO_PATH: {
-    'train': [kitti_infos_trainval.pkl],
+    'train': [kitti_infos_train.pkl],
     'test': [kitti_infos_val.pkl],
 }
 
